@@ -1,1 +1,11 @@
-
+Oobody {
+    font-family: 'Open Sans', serif;
+    background-color: #001A5F;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    cursor: url("LOGO.png"), auto;
+}
