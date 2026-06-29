@@ -1,12 +1,12 @@
 body {
     font-family: 'Open-Sans', arial ;
-    background-color: #1647c9;
+    background-color: #020d2b;
     align-items: center;
     text-align: center; 
 }
 h1 {
    color: white;
-    font-family: 'Open-Sans';
+    font-family: Open-Sans, arial;
     font-size: 50px;
     text-align: center; 
     border: 5px solid red; 
@@ -16,3 +16,10 @@ img {
     border: 5px solid red; 
     border-radius: 20px
 }
+p {
+   color: white;
+    font-family: Open-Sans, arial;
+    font-size: 10px;
+    text-align: center; 
+    div: 5px solid red; 
+   
