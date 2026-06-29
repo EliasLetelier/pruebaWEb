@@ -1,1 +1,9 @@
-
+body {
+    font-family: 'Open Sans', serif;
+    background-color: #001a5f;
+    align-items: center;
+}
+h1 {
+   color: white;
+    font-size: 50px;
+}
