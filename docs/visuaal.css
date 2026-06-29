@@ -22,9 +22,10 @@ p {
     font-size: 10px;
     text-align: center; 
     div: 5px solid red; 
-   button {
+button {
     font-family: 'Open-Sans', arial ;
     background-color: #001a5f;
     border: 5px solid black; 
+    border-radius: 20px
     cursor: pointer;
 }
