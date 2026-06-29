@@ -1,7 +1,8 @@
 body {
-    font-family: 'Open-Sans', Extenda-30-Deca ;
-    background-color: #001a5f;
+    font-family: 'Open-Sans', arial ;
+    background-color: #1647c9;
     align-items: center;
+    text-align: center; 
 }
 h1 {
    color: white;
