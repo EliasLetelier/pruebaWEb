@@ -19,9 +19,9 @@ body {
     background-repeat: no-repeat;
     
     /* Ajusta la transparencia aquí (0.05 es muy sutil, 0.1 aumenta la intensidad) */
-    opacity: 0; 
+    opacity: 0,3; 
     
-    z-index: none; /* Envía la imagen al fondo, detrás de textos, gráficos y secciones */
+    z-index: -1; /* Envía la imagen al fondo, detrás de textos, gráficos y secciones */
     pointer-events: none; /* Evita que interfiera con los clics o interacciones de la web */
 }
 
