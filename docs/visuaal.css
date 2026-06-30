@@ -16,11 +16,12 @@ h2 {
     font-size: 30px;
     text-align: center; 
     border: 5px solid red; 
-    border-radius: 20px
+    border-radius: 5px
 }
 img {
     border: 5px solid red; 
     border-radius: 20px
+    margin-bottom: 20px
 }
 p {
    color: white;
@@ -28,13 +29,14 @@ p {
     font-size: 10px;
     text-align: center; 
   Padding: 10px red;
-button {button {
+button {
     background-color: #001a5f;
     color: white;
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 30px;
     cursor: pointer;
+    margin-top: 20px;
 }
 }
 
