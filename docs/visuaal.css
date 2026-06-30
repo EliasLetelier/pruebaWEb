@@ -5,7 +5,7 @@ body {
     text-align: center; 
 }/* 1. Forzar a que el logo y el menú se pongan uno al lado del otro */
 .encabezado-sitio {
-    background-color: #000c24;      /* Fondo azul oscuro que combine con tu web */
+    background-color: #001a5f;      /* Fondo azul oscuro que combine con tu web */
     display: flex;
     justify-content: space-between; /* Manda el logo a la izquierda y el menú a la derecha */
     align-items: center;            /* Los centra verticalmente */
