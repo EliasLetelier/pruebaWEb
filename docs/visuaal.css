@@ -26,9 +26,12 @@ img {
 p {
    color: white;
     font-family: Open-Sans, arial;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center; 
-  Padding: 10px red;
+   background-color: #001a5f;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
 button {
     background-color: #001a5f;
     color: white;
