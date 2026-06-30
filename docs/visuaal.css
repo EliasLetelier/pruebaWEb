@@ -11,6 +11,12 @@ body {
     align-items: center;            /* Los centra verticalmente */
     padding: 20px 5%;               /* Espaciado interno para que no toque los bordes */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Línea sutil decorativa abajo */
+    
+    position: sticky;  /* Se vuelve fija solo cuando es necesario */
+    top: 0;            /* Se congela justo al tocar el borde de arriba */
+    z-index: 1000;     /* Pasa por encima de los gráficos al bajar */
+    width: 100%;       
+    box-sizing: border-box;
 }
 
 /* Estilo estético para el texto del Logo */
