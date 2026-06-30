@@ -9,6 +9,12 @@ h1 {
     font-family: Open-Sans, arial;
     font-size: 50px;
     text-align: center; 
+}
+h2 {
+   color: white;
+    font-family: Open-Sans, arial;
+    font-size: 30px;
+    text-align: center; 
     border: 5px solid red; 
     border-radius: 20px
 }
@@ -22,17 +28,14 @@ p {
     font-size: 10px;
     text-align: center; 
   Padding: 10px red;
-button {
-    font-family: 'Open-Sans', arial ;
+button {button {
     background-color: #001a5f;
-    border: 5px solid black; 
-    border-radius: 20px
-    padding: 10px 20px; 
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
     cursor: pointer;
-      font-size: 16px;         
-    transition: 0.3s;        
-    text-decoration: none;    
-    display: inline-block;
+}
 }
 
 
