@@ -4,6 +4,16 @@ body {
     align-items: center;
     text-align: center; 
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(18, 22, 26, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 2px solid var(#001a5f);
+}
 h1 {
    color: white;
     font-family: Open-Sans, arial;
