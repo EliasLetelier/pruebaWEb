@@ -137,7 +137,25 @@ button:hover {
     transform: translateY(-2px);
 }
 
+.seccion-oscura {
+    background-color:#020d2b ); /* El color #12161A de tus variables */
+    color: var(--white);
+    padding: 60px 10%;
+}
 
+.seccion-imagen-fijo {
+    /* Cambia 'guitarra.jpg' por el nombre real de tu imagen en tu carpeta */
+    background-image: url('ucolo.webp'); 
+    
+    /* Estos comandos hacen que la imagen se quede quieta como en tu captura */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 0; /* Dejamos el padding en 0 para que la capa cubra todo */
+    width: 100%;
+}
 
 
 
