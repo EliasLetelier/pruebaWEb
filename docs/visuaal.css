@@ -12,13 +12,13 @@ body {
     padding: 20px 5%;               /* Espaciado interno para que no toque los bordes */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Línea sutil decorativa abajo */
     
-    position: sticky;  /* Se vuelve fija solo cuando es necesario */
-    top: 0;            /* Se congela justo al tocar el borde de arriba */
-    z-index: 1000;     /* Pasa por encima de los gráficos al bajar */
-    width: 100%;       
-    box-sizing: border-box;
+   position: fixed;   /* Cambia el comportamiento para que flote fijo */
+    top: 0;            /* Lo pega al borde superior de la pantalla */
+    left: 0;           /* Lo pega al borde izquierdo */
+    width: 100%;       /* Obliga a la barra a cubrir todo el ancho de lado a lado */
+    z-index: 1000;     /* Actúa como una capa para que la barra pase por encima de los gráficos Vega y botones */
+    box-sizing: border-box; /* Evita que el padding rompa el ancho total */
 }
-
 /* Estilo estético para el texto del Logo */
 .logo a {
     color: #ffffff !important;      /* Fuerza el color blanco */
