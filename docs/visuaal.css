@@ -4,15 +4,48 @@ body {
     align-items: center;
     text-align: center; 
 }
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(18, 22, 26, 0.95);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    border-bottom: 2px solid var(#001a5f);
+/* --- CONTENEDOR PRINCIPAL DEL ENCABEZADO --- */
+.encabezado-sitio {
+    background-color: #001a5f; /* El azul oscuro de tu paleta */
+    display: flex;
+    justify-content: space-between; /* Separa el logo a la izquierda y el menú a la derecha */
+    align-items: center;            /* Centra verticalmente los elementos */
+    padding: 15px 5%;              /* Espaciado interno elegante */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el Logo */
+.logo a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* --- DISEÑO DE LA BARRA DE NAVEGACIÓN --- */
+.barra-navegacion ul {
+    list-style-type: none; /* Quita los puntos negros de la lista <ul> */
+    margin: 0;
+    padding: 0;
+    display: flex;         /* ¡La magia! Pone los elementos en fila horizontal */
+    gap: 20px;             /* Comando de separación entre cada opción del menú */
+}
+
+/* Estilo para cada enlace del menú */
+.enlace-nav {
+    color: #ffffff;
+    text-decoration: none; /* Quita el subrayado azul por defecto */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s ease; /* Hace que el efecto hover sea suave */
+}
+
+/* Efecto visual cuando el usuario pasa el mouse por encima */
+.enlace-nav:hover {
+    background-color: rgba(255, 255, 255, 0.15); /* Crea un óvalo semi-transparente brillante */
+    color: #FF7F0E; /* Cambia el texto al naranja Plotly de tus variables */
 }
 h1 {
    color: white;
