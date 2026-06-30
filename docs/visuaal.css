@@ -41,6 +41,51 @@ button {
     cursor: pointer;
     margin-top: 20px;
 }
+    .encabezado-pagina h1 {
+    font-size: 2.2rem;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+
+.encabezado-pagina p {
+    font-size: 1.1rem;
+    color: #a0aec0; /* Texto secundario gris claro */
+    margin: 0;
+}
+
+/* --- CONTENEDOR DEL GRÁFICO (LAYOUT) --- */
+.contenedor-principal {
+    width: 90%;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+/* Estilos específicos para la caja del gráfico Vega */
+#vis {
+    background: #ffffff; /* El fondo del gráfico se mantiene blanco para legibilidad */
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4); /* Sombra más profunda */
+    overflow-x: auto; /* Permite scroll horizontal si se visualiza en celulares */
+}
+
+/* --- TUS BOTONES (Pegar debajo de esto el código que ya tenías) --- */
+button {
+    background-color: #001a5f;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: #002b9e;
+    transform: translateY(-2px);
+}
 
 
 
