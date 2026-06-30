@@ -14,13 +14,15 @@ body {
     background-image: url('ucolo.webp'); 
     
     /* Estos comandos hacen que la imagen se quede quieta como en tu captura */
-    background-attachment: fixed;
+     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     
-    padding: 0; /* Dejamos el padding en 0 para que la capa cubra todo */
-    width: 100%;
+    /* Ajusta la transparencia aquí (0.05 es muy sutil, 0.1 aumenta la intensidad) */
+    opacity: 0.3; 
+    
+    z-index: -1; /* Envía la imagen al fondo, detrás de textos, gráficos y secciones */
+    pointer-events: none; /* Evita que interfiera con los clics o interacciones de la web */
 }
 
     
