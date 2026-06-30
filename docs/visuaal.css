@@ -3,49 +3,50 @@ body {
     background-color: #020d2b;
     align-items: center;
     text-align: center; 
-}
-/* --- CONTENEDOR PRINCIPAL DEL ENCABEZADO --- */
+}/* 1. Forzar a que el logo y el menú se pongan uno al lado del otro */
 .encabezado-sitio {
-    background-color: #001a5f; /* El azul oscuro de tu paleta */
+    background-color: #000c24;      /* Fondo azul oscuro que combine con tu web */
     display: flex;
-    justify-content: space-between; /* Separa el logo a la izquierda y el menú a la derecha */
-    align-items: center;            /* Centra verticalmente los elementos */
-    padding: 15px 5%;              /* Espaciado interno elegante */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    justify-content: space-between; /* Manda el logo a la izquierda y el menú a la derecha */
+    align-items: center;            /* Los centra verticalmente */
+    padding: 20px 5%;               /* Espaciado interno para que no toque los bordes */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Línea sutil decorativa abajo */
 }
 
-/* Estilo para el Logo */
+/* Estilo estético para el texto del Logo */
 .logo a {
-    color: #ffffff;
-    font-size: 24px;
+    color: #ffffff !important;      /* Fuerza el color blanco */
+    text-decoration: none;          /* Quita el subrayado */
+    font-size: 22px;
     font-weight: bold;
-    text-decoration: none;
+    font-family: Arial, sans-serif;
 }
 
-/* --- DISEÑO DE LA BARRA DE NAVEGACIÓN --- */
+/* 2. Quitar los puntos de la lista y alinear horizontalmente */
 .barra-navegacion ul {
-    list-style-type: none; /* Quita los puntos negros de la lista <ul> */
-    margin: 0;
+    list-style: none;               /* Quita los puntos negros molestos */
     padding: 0;
-    display: flex;         /* ¡La magia! Pone los elementos en fila horizontal */
-    gap: 20px;             /* Comando de separación entre cada opción del menú */
+    margin: 0;
+    display: flex;                  /* ¡IMPORTANTE! Pone los enlaces de lado en vez de abajo */
+    gap: 25px;                      /* Separa un enlace de otro por 25px */
 }
 
-/* Estilo para cada enlace del menú */
+/* 3. Cambiar por completo el diseño de los enlaces (Adiós morado) */
 .enlace-nav {
-    color: #ffffff;
-    text-decoration: none; /* Quita el subrayado azul por defecto */
+    color: #ffffff !important;      /* Cambia el morado por blanco brillante */
+    text-decoration: none;          /* Quita el subrayado de los enlaces */
     font-size: 16px;
     font-weight: 500;
+    font-family: Arial, sans-serif;
     padding: 8px 16px;
-    border-radius: 20px;
-    transition: 0.3s ease; /* Hace que el efecto hover sea suave */
+    border-radius: 20px;            /* Bordes ovalados para el efecto hover */
+    transition: all 0.3s ease;      /* Hace que el cambio de color sea suave */
 }
 
-/* Efecto visual cuando el usuario pasa el mouse por encima */
+/* 4. Efecto interactivo al pasar el mouse por encima (Hover) */
 .enlace-nav:hover {
-    background-color: rgba(255, 255, 255, 0.15); /* Crea un óvalo semi-transparente brillante */
-    color: #FF7F0E; /* Cambia el texto al naranja Plotly de tus variables */
+    background-color: rgba(255, 255, 255, 0.1); /* Crea un fondo gris transparente */
+    color: #FF7F0E !important;     /* El texto cambia al naranja Plotly de tus variables */
 }
 h1 {
    color: white;
